@@ -1,5 +1,6 @@
 from PySide2.QtWidgets import QWidget, QApplication, QHBoxLayout, QLabel, QLineEdit, QVBoxLayout, QDialog
 
+
 class LabeledTextField(QWidget):
     def __init__(self,text):
         QWidget.__init__(self)
