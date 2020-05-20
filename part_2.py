@@ -22,6 +22,7 @@ class ConfigurationDialog(QDialog):
         for labeledtextfield in labeledtextfields:
             self.layout.addWidget(labeledtextfield)
 
+
 if __name__=='__main__':
     app=QApplication([])
     win=ConfigurationDialog()
