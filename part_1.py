@@ -1,6 +1,7 @@
 from PySide2.QtWidgets import QWidget, QApplication, QVBoxLayout, QHBoxLayout, QPushButton,QTextEdit, QTableWidget, QHeaderView
 import part_2
 
+
 class SQLClientWindow(QWidget):
     def __init__(self):
         QWidget.__init__(self)
@@ -26,7 +27,6 @@ class SQLClientWindow(QWidget):
         self.configuration_dialog=part_2.ConfigurationDialog()
         self.show()
         self.configuration_dialog.show()
-
 
 class ButtonsPanel(QWidget):
     def __init__(self):
